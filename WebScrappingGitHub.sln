@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28922.388
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebScrappingGitHub", "WebScrappingGitHub.csproj", "{D194DB41-DCD3-4CDF-961D-2C82E35DD0D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D194DB41-DCD3-4CDF-961D-2C82E35DD0D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D194DB41-DCD3-4CDF-961D-2C82E35DD0D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D194DB41-DCD3-4CDF-961D-2C82E35DD0D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D194DB41-DCD3-4CDF-961D-2C82E35DD0D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5910C276-4774-4FF8-89E2-8770E418276F}
+	EndGlobalSection
+EndGlobal
