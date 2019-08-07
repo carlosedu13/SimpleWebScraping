@@ -15,12 +15,21 @@ namespace WebScrappingGitHub
             HtmlDocument HTMLDocument = new HtmlDocument();
             HTMLDocument.LoadHtml(Page);
 
-            const string Xpath = "//div[contains(@class, 'content')"; // Trying select the class
-            var Nodes = HTMLDocument.DocumentNode.SelectNodes(Xpath);
-            Console.WriteLine(Nodes);
-            //.Descendants().First(x => x.attributes["class"] != null && x.Attributes["class"].Value.Equals("overall")).InnerText;
+            const string Xpath = "//li[@class='commits']"; // Trying select the class
+            try
+            {
+                System.Collections.Generic.IEnumerable<HtmlNode> Nodes = HTMLDocument.DocumentNode.SelectNodes(Xpath).Descendants();
+                string StringNodes = Nodes.ToString();
+                Console.WriteLine(Nodes);
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("Não conseguiu acessar o site ou chegar ao objeto da seleção");
+            }
+            Console.ReadLine();
+
             //WebUtility.HtmlDecode();
-            
+
         }
     }
 }
